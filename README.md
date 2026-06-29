@@ -27,6 +27,21 @@ Previously, _Cocos Creator_ referred to the combined engine and editor, spanning
 
 **COCOS** will refer solely to the engine, with the major version upgrading to **COCOS 4**. The cross-platform framework and the core components of the editor will be converted to CLI tools and integrated into the engine's core functionality. This represents a major new addition to this open-source release.
 
+## Speaky Korean Study Site
+
+This fork also maintains a Korean GitHub Pages study site for reading COCOS 4 source code, tracking recent alpha changes, and connecting engine concepts to real game development and AI-assisted production workflows.
+
+- Public site: https://nfbs2000.github.io/speaky-cocos4/
+- Source: [docs-site](./docs-site)
+- Local docs build:
+
+```bash
+npm --prefix docs-site install
+npm --prefix docs-site run docs:build
+```
+
+이 문서 사이트는 엔진 소스와 분리된 `docs-site/` 패키지로 관리합니다. COCOS 4의 방향, 저장소 구조, 렌더링/GFX, Asset Manager, 2D Physics, Native Binding, CLI/Editor 분리, AI 게임 제작 경험을 한국어 챕터로 정리합니다.
+
 ## Features
 
 1. **Modern Graphics**: The GFX implementation is designed to adapt to the modern graphics APIs, it uses Vulkan on Windows and Android, Metal on Mac OS and iOS, and WebGL on Web platforms.

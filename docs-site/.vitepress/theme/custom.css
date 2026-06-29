@@ -1,0 +1,41 @@
+:root {
+  --vp-c-brand-1: #19d3c5;
+  --vp-c-brand-2: #14b8a6;
+  --vp-c-brand-3: #0f766e;
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #19d3c5 0%, #facc15 48%, #60a5fa 100%);
+  --vp-home-hero-image-background-image: radial-gradient(circle, rgba(25, 211, 197, 0.2), transparent 58%);
+  --vp-home-hero-image-filter: blur(42px);
+}
+
+.VPHome .image-container img {
+  border-radius: 8px;
+}
+
+.engine-map {
+  width: min(100%, 920px);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  background: #0b1018;
+  margin: 24px 0;
+}
+
+.vp-doc .evidence-box {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  padding: 16px 18px;
+  background: var(--vp-c-bg-soft);
+}
+
+.vp-doc .chapter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.vp-doc .chapter-card {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  padding: 14px;
+  background: var(--vp-c-bg-soft);
+}

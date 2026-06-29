@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">COCOS 4 학습 지도</title>
+  <desc id="desc">TypeScript API, native runtime, rendering, assets, physics, animation, CLI and AI workflow relationships.</desc>
+  <rect width="960" height="520" fill="#0b1018"/>
+  <rect x="34" y="34" width="892" height="452" rx="18" fill="#111827" stroke="#263244"/>
+  <text x="64" y="78" fill="#f8fafc" font-family="Arial, sans-serif" font-size="30" font-weight="700">Speaky COCOS 4 학습 지도</text>
+  <text x="64" y="108" fill="#94a3b8" font-family="Arial, sans-serif" font-size="15">소스 구조를 따라 읽고, 작은 실험으로 증명하고, 게임 제작 사례로 다시 연결한다.</text>
+
+  <g font-family="Arial, sans-serif" font-size="15" font-weight="700">
+    <rect x="64" y="152" width="206" height="88" rx="10" fill="#0f766e" stroke="#2dd4bf"/>
+    <text x="86" y="190" fill="#ecfeff">TypeScript API</text>
+    <text x="86" y="215" fill="#ccfbf1" font-size="13" font-weight="400">exports, cocos/*, 사용자 API</text>
+
+    <rect x="376" y="152" width="206" height="88" rx="10" fill="#1d4ed8" stroke="#60a5fa"/>
+    <text x="398" y="190" fill="#eff6ff">Native Runtime</text>
+    <text x="398" y="215" fill="#dbeafe" font-size="13" font-weight="400">native/cocos, platform, binding</text>
+
+    <rect x="688" y="152" width="206" height="88" rx="10" fill="#7c2d12" stroke="#fb923c"/>
+    <text x="710" y="190" fill="#fff7ed">CLI / Editor 분리</text>
+    <text x="710" y="215" fill="#ffedd5" font-size="13" font-weight="400">build scripts, editor-support</text>
+
+    <rect x="64" y="304" width="206" height="88" rx="10" fill="#581c87" stroke="#c084fc"/>
+    <text x="86" y="342" fill="#faf5ff">Rendering / GFX</text>
+    <text x="86" y="367" fill="#f3e8ff" font-size="13" font-weight="400">pipeline, gfx, material, effect</text>
+
+    <rect x="376" y="304" width="206" height="88" rx="10" fill="#854d0e" stroke="#facc15"/>
+    <text x="398" y="342" fill="#fefce8">Gameplay Systems</text>
+    <text x="398" y="367" fill="#fef9c3" font-size="13" font-weight="400">scene, asset, physics, animation</text>
+
+    <rect x="688" y="304" width="206" height="88" rx="10" fill="#991b1b" stroke="#f87171"/>
+    <text x="710" y="342" fill="#fef2f2">AI 제작 워크플로우</text>
+    <text x="710" y="367" fill="#fee2e2" font-size="13" font-weight="400">프롬프트, 로그, 실패 노출, 검증</text>
+  </g>
+
+  <g stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M270 196 C310 196 336 196 376 196"/>
+    <path d="M582 196 C622 196 648 196 688 196"/>
+    <path d="M167 240 C167 268 167 276 167 304"/>
+    <path d="M479 240 C479 268 479 276 479 304"/>
+    <path d="M791 240 C791 268 791 276 791 304"/>
+    <path d="M270 348 C310 348 336 348 376 348"/>
+    <path d="M582 348 C622 348 648 348 688 348"/>
+  </g>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>
